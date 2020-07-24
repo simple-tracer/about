@@ -7,7 +7,9 @@ One thing we've observed is the effectiveness of contact tracing as a utility to
 Simple Tracer consists of five key components:
 
 1. Flamingo, the app for residents to check in to buildings. Built with Ionic.
+
 2. Eagle, an API that manages checking in and out to allow for new solutions to be built. Built with Express and Node.js.
+
 3. Hummingbird, a website that powers building registration and QR code generation. Built with HTML, CSS & JS.
 4. Hornbill, a web app for contact tracers to identify contacts and issue quarantine orders.
 5. Parrot, a python script for creating admin users for Hornbill.
@@ -33,4 +35,17 @@ The reason for using Airtable is that it can be built on top of extremely quickl
 
 ### 🚩Stage 2: Eagle
 
-The next step is to deploy Eagle, the API. 
+The next step is to deploy Eagle, the API. Here are the steps to do so these steps are for Heroku:
+
+1. Click this [link](https://heroku.com/deploy?template=https://github.com/simple-tracer/eagle/).
+2. Fill in your app name and a server location.
+3. For the `AIRTABLE_BASE` enviromental variable, enter your Airtable Base Key.
+4. For the `AIRTABLE_KEY` enviromental variable, enter your Airtable API Key.
+5. For the `SECRET_KEY` enviromental variable, enter a random string of letters. You can use this [site](https://www.random.org/strings/). Don't forget this.
+6. Click `Deploy App`.
+7. Once the app is deployed, click `View App`. Copy the URL and take note of it.
+
+### 🚩Stage 3: Hornbill
+
+Now we want to deploy Hornbill, our admin tools system. This setup also uses Heroku and is similar to Eagle's.
+
