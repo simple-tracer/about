@@ -51,14 +51,47 @@ The reason for using Airtable is that it can be built on top of extremely quickl
 The next step is to deploy Eagle, the API. Here are the steps to do so these steps are for Heroku:
 
 1. Click this [link](https://heroku.com/deploy?template=https://github.com/simple-tracer/eagle/).
+
 2. Fill in your app name and a server location.
+
 3. For the `AIRTABLE_BASE` enviromental variable, enter your Airtable Base Key.
+
 4. For the `AIRTABLE_KEY` enviromental variable, enter your Airtable API Key.
+
 5. For the `SECRET_KEY` enviromental variable, enter a random string of letters. You can use this [site](https://www.random.org/strings/). Don't forget this.
+
 6. Click `Deploy App`.
+
 7. Once the app is deployed, click `View App`. Copy the URL and take note of it.
 
-### 🚩Stage 3: Hornbill
+### 🚩Stage 3: Twilio
+
+This can get a bit complicated, we'll let the people over at Twilio explain with this [great guide](https://www.twilio.com/docs/notify/quickstart/sms). It will run you through the process of creating a Notify service in Twilio. You only need to follow the guide up to the **Gather account information** section.
+
+Once you are done you should have the following information:
+
+| Config Value         | Description                                                                                                                                    
+|-|-|
+| Account SID          | Used to authenticate REST API requests -   find it in the console here.                                                                        |
+| Auth Token           | Used to authenticate REST API requests -   like the Account SID, find it in the console here .                                                 |
+| Service Instance SID | A  Notify Service instance where all the data for our application is stored and scoped. We created it in Twilio console in previous paragraph. |
+
+
+### 🚩Stage 4: Hornbill
 
 Now we want to deploy Hornbill, our admin tools system. This setup also uses Heroku and is similar to Eagle's.
+
+1. Click this [link](https://heroku.com/deploy?template=https://github.com/simple-tracer/hornbill/).
+
+2. Fill in your app name and a server location.
+
+3. For the `AIRTABLE_BASE` enviromental variable, enter your Airtable Base Key.
+
+4. For the `AIRTABLE_KEY` enviromental variable, enter your Airtable API Key.
+
+5. For the `SECRET_KEY` enviromental variable, enter a random string of letters. You can use this [site](https://www.random.org/strings/). Don't forget this.
+
+6. Click `Deploy App`.
+
+7. Once the app is deployed, click `View App`. Copy the URL and take note of it.
 
