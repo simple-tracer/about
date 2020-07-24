@@ -6,20 +6,20 @@ One thing we've observed is the effectiveness of contact tracing as a utility to
 
 Simple Tracer consists of five key components:
 
-1. Flamingo, the app for residents to check in to buildings. Built with Ionic.
+1. **Flamingo**, the app for residents to check in to buildings. Built with Ionic.
 
-2. Eagle, an API that manages checking in and out to allow for new solutions to be built. Built with Express and Node.js.
+2. **Eagle**, an API that manages checking in and out to allow for new solutions to be built. Built with Express and Node.js.
 
-3. Hummingbird, a website that powers building registration and QR code generation. Built with HTML, CSS & JS.
+3. **Hummingbird**, a website that powers building registration and QR code generation. Built with HTML, CSS & JS.
 
-4. Hornbill, a web app for contact tracers to identify contacts and issue quarantine orders.
+4. **Hornbill**, a web app for contact tracers to identify contacts and issue quarantine orders.
 
-5. Parrot, a python script for creating admin users for Hornbill.
+5. **Parrot**, a python script for creating admin users for Hornbill.
 
 
 Collectively, all of these can deployed with just a few clicks by following the guide below.
 
-### 🚩Stage 1: Airtable
+### 🚩 Stage 1: Airtable
 
 We use Airtable for a database. You can learn more about Airtable [here](https://airtable.com). The free plan for Airtable is sufficient to demo this app, however to deploy this solution in production you will almost certainly need the Airtable Enterprise plan. You can learn more about it [here](https://airtable.com/enterprise).
 
@@ -46,7 +46,7 @@ The reason for using Airtable is that it can be built on top of extremely quickl
     7. Make sure to note down both keys.
     
 
-### 🚩Stage 2: Eagle
+### 🚩 Stage 2: Eagle
 
 The next step is to deploy Eagle, the API. Here are the steps to do so these steps are for Heroku:
 
@@ -64,7 +64,7 @@ The next step is to deploy Eagle, the API. Here are the steps to do so these ste
 
 7. Once the app is deployed, click `View App`. Copy the URL and take note of it.
 
-### 🚩Stage 3: Twilio
+### 🚩 Stage 3: Twilio
 
 This can get a bit complicated, we'll let the people over at Twilio explain with this [great guide](https://www.twilio.com/docs/notify/quickstart/sms). It will run you through the process of creating a Notify service in Twilio. You only need to follow the guide up to the **Gather account information** section.
 
@@ -72,12 +72,12 @@ Once you are done you should have the following information:
 
 | Config Value         | Description                                                                                                                                    
 |-|-|
-| Account SID          | Used to authenticate REST API requests -   find it in the console here.                                                                        |
-| Auth Token           | Used to authenticate REST API requests -   like the Account SID, find it in the console here .                                                 |
-| Service Instance SID | A  Notify Service instance where all the data for our application is stored and scoped. We created it in Twilio console in previous paragraph. |
+| Account SID          | Used to authenticate REST API requests - [find it in the Twilio console here](https://www.twilio.com/user/account/settings).|
+| Auth Token           | Used to authenticate REST API requests - [like the Account SID, find it in the console here](https://www.twilio.com/user/account/settings)|
+| Service Instance SID | A  Notify Service instance where all the data for our application is stored and scoped. You created it in Twilio console in the above guide.|
 
 
-### 🚩Stage 4: Hornbill
+### 🚩 Stage 4: Hornbill
 
 Now we want to deploy Hornbill, our admin tools system. This setup also uses Heroku and is similar to Eagle's.
 
