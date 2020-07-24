@@ -89,9 +89,23 @@ Now we want to deploy Hornbill, our admin tools system. This setup also uses Her
 
 4. For the `AIRTABLE_KEY` enviromental variable, enter your Airtable API Key.
 
-5. For the `SECRET_KEY` enviromental variable, enter a random string of letters. You can use this [site](https://www.random.org/strings/). Don't forget this.
+5. For the `KEY` enviromental variable, we need to generate a key (unlike before we can't just use a random string of letters).
 
-6. Click `Deploy App`.
+    1. To do this we will use Python, open your terminal and type python. Or use this [site](https://www.python.org/shell/) if you don't have Python installed.
+    2. Next, type `import os` and click enter.
+    3. Now, type `import base64` and click enter.
+    4. To end, type `print(base64.urlsafe_b64encode(os.urandom(32)))`
+    5. Copy the result, if your result has `b'` at the start delete that as well as the `'` at the end.
 
-7. Once the app is deployed, click `View App`. Copy the URL and take note of it.
+6. For the `TWILIO_ACCOUNT_SID` enviromental variable, enter your Twilio Account SID you made earlier.
+
+7. For the `TWILIO_AUTH_TOKEN` enviromental variable, enter your Twilio Auth Token you made earlier.
+
+8. For the `TWILIO_NOTIFY_SERVICE_SID` enviromental variable, enter your Twilio Service Instance SID you made earlier.
+
+9. Click `Deploy App`.
+
+10. Once the app is deployed, click `View App`. Welcome to Hornbill, but what is my password?
+
+### 🚩 Stage 5: Parrot
 
