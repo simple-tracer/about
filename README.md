@@ -21,12 +21,19 @@ Collectively, all of these can deployed with just a few clicks by following the 
 **Table of Contents**
 
 1. [Deployment Instructions](#deployment-instructions)
+
     1. [Airtable](#-stage-1-airtable)
+    
     2. [Eagle](#-stage-2-eagle)
+    
     3. [Twilio](#-stage-3-twilio)
+    
     4. [Hornbill](#-stage-4-hornbill)
+    
     5. [Parrot](#-stage-5-parrot)
+    
     6. [Flamingo](#-stage-6-flamingo)
+    
 2. [FAQ](#faq)
 
 ## Deployment Instructions
