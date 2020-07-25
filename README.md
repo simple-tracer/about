@@ -159,13 +159,13 @@ TBC.
 <details>
     <summary>I have an issue, what can I do?</summary>
     <br>
-    Please report it in the Issues tab of the related Github repository. If you aren't sure which repository to report the issue in, you can report it here. If         your issue is sensitive or related to secruity please email [contact@simpletracer.tech](mailto:contact@simpletracer.tech).
+    Please report it in the Issues tab of the related Github repository. If you aren't sure which repository to report the issue in, you can report it here. If         your issue is sensitive or related to secruity please email <a href="mailto:contact@simpletracer.tech">contact@simpletracer.tech</a>.
 </details>
 
 <details>
     <summary>I don't have the technical know how to set up the app, what can I do?</summary>
     <br>
-    We offer free set up to all goverment agencies. Please email [contact@simpletracer.tech](mailto:contact@simpletracer.tech), with details and verifaction of your identity. 
+    We offer free set up to all goverment agencies. Please email <a href="mailto:contact@simpletracer.tech">contact@simpletracer.tech</a>, with details and verifaction of your identity. 
 </details>
 
 <details>
