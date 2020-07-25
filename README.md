@@ -16,8 +16,9 @@ Simple Tracer consists of five key components:
 
 5. **Parrot**, a python script for creating admin users for Hornbill.
 
-
 Collectively, all of these can deployed with just a few clicks by following the guide below.
+
+## Deployment Instructions
 
 ### 🚩 Stage 1: Airtable
 
@@ -135,4 +136,12 @@ TBC.
 
 **🎉 Amazing! We've succesfully set up Simple Tracer!**
 
-Had an issue? Please report it in the Issues tab of the related Github repository. If you aren't sure which repository to report the issue in, you can report it here.
+## FAQ
+
+Had an issue? Please report it in the Issues tab of the related Github repository. If you aren't sure which repository to report the issue in, you can report it here. If your issue is sensitive or related to secruity please email [contact@simpletracer.tech](mailto:contact@simpletracer.tech).
+
+Don't have the technical know how to set up the app? We offer free set up to all goverment agencies. Please email [contact@simpletracer.tech](mailto:contact@simpletracer.tech), with details and verifaction of your identity. 
+
+I'd like to contribute, how can I? First off, thank you. All our code is open source and each Github repository has instructions for contributing. For this repo, it's best to run through the guide and then add additional details you feel are missing.
+
+What is your Code of Conduct? Please view this document.
