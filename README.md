@@ -168,7 +168,7 @@ TBC.
 
 <details>
     <summary>I'd like to contribute, how can I?</summary>
-    First off, thank you. All our code is open source and each Github repository has instructions for contributing. For this repo, it's best to run through the guide and then add additional details you feel are missing.
+    First off, thank you. All our code is open source and each Github repository has instructions for contributing. For this repo, it's best to run through the guide and then add additional details you feel are missing. Once you've contributed add yourself to the contributors list below, here's [how](https://github.com/simple-tracer/about/issues).
 </details>
 
 <details>
