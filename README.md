@@ -128,3 +128,11 @@ python3 parrot.py new
 3. Now you have created a new user, you can login in on Hornbill.
 
 4. To update a user's password replace `new` with `update`. To delete a user replace `new` with `remove`.
+
+### 🚩 Stage 6: Flamingo
+
+TBC.
+
+**🎉 Amazing! We've succesfully set up Simple Tracer!**
+
+Had an issue? Please report it in the Issues tab of the related Github repository. If you aren't sure which repository to report the issue in, you can report it here.
