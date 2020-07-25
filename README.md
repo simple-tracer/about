@@ -158,25 +158,21 @@ TBC.
 
 <details>
     <summary>I have an issue, what can I do?</summary>
-    
     Please report it in the Issues tab of the related Github repository. If you aren't sure which repository to report the issue in, you can report it here. If         your issue is sensitive or related to secruity please email [contact@simpletracer.tech](mailto:contact@simpletracer.tech).
 </details>
 
 <details>
     <summary>I don't have the technical know how to set up the app, what can I do?</summary>
-    
     We offer free set up to all goverment agencies. Please email [contact@simpletracer.tech](mailto:contact@simpletracer.tech), with details and verifaction of your identity. 
 </details>
 
 <details>
     <summary>I'd like to contribute, how can I?</summary>
-    
     First off, thank you. All our code is open source and each Github repository has instructions for contributing. For this repo, it's best to run through the guide and then add additional details you feel are missing.
 </details>
 
 <details>
     <summary>What is your Code of Conduct?</summary>
-    
     Please view this document.
 </details>
 
