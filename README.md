@@ -109,3 +109,22 @@ Now we want to deploy Hornbill, our admin tools system. This setup also uses Her
 
 ### 🚩 Stage 5: Parrot
 
+Parrot is a simple command line tool that allows you to add admin users so you can login to Hornbill.
+
+1. Write the following in your terminal:
+
+```
+mkdir parrot
+
+cd parrot
+
+git clone https://github.com/simple-tracer/parrot.git
+
+python3 parrot.py new
+```
+
+2. This will start the process of creating a new user. Fill in the requested details, make sure the `Secret key` is the same as made in Step 5 of the Hornbill stage.
+
+3. Now you have created a new user, you can login in on Hornbill.
+
+4. To update a user's password replace `new` with `update`. To delete a user replace `new` with `remove`.
