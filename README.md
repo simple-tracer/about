@@ -34,6 +34,8 @@ Collectively, all of these can deployed with just a few clicks by following the 
     
     6. [Flamingo](#-stage-6-flamingo)
     
+    7. [Hummingbird](#-stage-7-hummingbird)
+    
 2. [FAQ](#faq)
 
 ## Deployment Instructions
@@ -149,6 +151,10 @@ python3 parrot.py new
 4. To update a user's password replace `new` with `update`. To delete a user replace `new` with `remove`.
 
 ### 🚩 Stage 6: Flamingo
+
+TBC.
+
+### 🚩 Stage 7: Hummingbird
 
 TBC.
 
