@@ -175,5 +175,3 @@ TBC.
     <summary>What is your Code of Conduct?</summary>
     Please view this document.
 </details>
-
-
