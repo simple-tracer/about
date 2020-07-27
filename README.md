@@ -34,6 +34,8 @@ Collectively, all of these can deployed with just a few clicks by following the 
     
     6. [Flamingo](#-stage-6-flamingo)
     
+    7. [Hummingbird](#-stage-7-hummingbird)
+    
 2. [FAQ](#faq)
 
 ## Deployment Instructions
@@ -152,28 +154,55 @@ python3 parrot.py new
 
 TBC.
 
+### 🚩 Stage 7: Hummingbird
+
+TBC.
+
 **🎉 Amazing! We've succesfully set up Simple Tracer!**
 
 ## FAQ
 
 <details>
     <summary>I have an issue, what can I do?</summary>
-    Please report it in the Issues tab of the related Github repository. If you aren't sure which repository to report the issue in, you can report it here. If         your issue is sensitive or related to secruity please email [contact@simpletracer.tech](mailto:contact@simpletracer.tech).
+    <br>
+    Please report it in the Issues tab of the related Github repository. If you aren't sure which repository to report the issue in, you can report it here. If         your issue is sensitive or related to secruity please email <a href="mailto:contact@simpletracer.tech">contact@simpletracer.tech</a>.
 </details>
 
 <details>
     <summary>I don't have the technical know how to set up the app, what can I do?</summary>
-    We offer free set up to all goverment agencies. Please email [contact@simpletracer.tech](mailto:contact@simpletracer.tech), with details and verifaction of your identity. 
+    <br>
+    We offer free set up to all goverment agencies. Please email <a href="mailto:contact@simpletracer.tech">contact@simpletracer.tech</a>, with details and verifaction of your identity. 
 </details>
 
 <details>
     <summary>I'd like to contribute, how can I?</summary>
-    First off, thank you. All our code is open source and each Github repository has instructions for contributing. For this repo, it's best to run through the guide and then add additional details you feel are missing.
+    <br>    
+    First off, thank you. All our code is open source and each Github repository has instructions for contributing. For this repo, it's best to run through the guide and then add additional details you feel are missing. Once you've contributed add yourself to the contributors list below, here's<a href ="https://github.com/simple-tracer/about/issues"> how</a>.
 </details>
 
 <details>
     <summary>What is your Code of Conduct?</summary>
+    <br>    
     Please view this document.
 </details>
 
 
+
+## Contributors 
+
+Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tr>
+    <td align="center"><a href="http://sampoder.com"><img src="https://avatars3.githubusercontent.com/u/39828164?v=4" width="100px;" alt=""/><br /><sub><b>Sam Poder</b></sub></a><br /><a href="https://github.com/simple-tracer/about/commits?author=sampoder" title="Code">💻</a> <a href="https://github.com/simple-tracer/about/commits?author=sampoder" title="Documentation">📖</a> <a href="#tutorial-sampoder" title="Tutorials">✅</a> <a href="#tool-sampoder" title="Tools">🔧</a> <a href="https://github.com/simple-tracer/about/issues?q=author%3Asampoder" title="Bug reports">🐛</a></td>
+  </tr>
+</table>
+
+<!-- markdownlint-enable -->
+<!-- prettier-ignore-end -->
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
