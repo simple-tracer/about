@@ -24,17 +24,15 @@ Collectively, all of these can deployed with just a few clicks by following the 
 
     1. [Airtable](#-stage-1-airtable)
     
-    2. [Eagle](#-stage-2-eagle)
+    2. [Twilio](#-stage-2-twilio)
     
-    3. [Twilio](#-stage-3-twilio)
+    3. [Hornbill](#-stage-3-hornbill)
     
-    4. [Hornbill](#-stage-4-hornbill)
+    4. [Parrot](#-stage-4-parrot)
     
-    5. [Parrot](#-stage-5-parrot)
+    5. [Flamingo](#-stage-5-flamingo)
     
-    6. [Flamingo](#-stage-6-flamingo)
-    
-    7. [Hummingbird](#-stage-7-hummingbird)
+    6. [Hummingbird](#-stage-6-hummingbird)
     
 2. [FAQ](#faq)
 
@@ -65,27 +63,8 @@ The reason for using Airtable is that it can be built on top of extremely quickl
     6. The ID following that will be your Base Key
     
     7. Make sure to note down both keys.
-    
 
-### 🚩 Stage 2: Eagle
-
-The next step is to deploy Eagle, the API. Here are the steps to do so these steps are for Heroku:
-
-1. Click this [link](https://heroku.com/deploy?template=https://github.com/simple-tracer/eagle/).
-
-2. Fill in your app name and a server location.
-
-3. For the `AIRTABLE_BASE` enviromental variable, enter your Airtable Base Key.
-
-4. For the `AIRTABLE_KEY` enviromental variable, enter your Airtable API Key.
-
-5. For the `SECRET_KEY` enviromental variable, enter a random string of letters. You can use this [site](https://www.random.org/strings/). Don't forget this.
-
-6. Click `Deploy App`.
-
-7. Once the app is deployed, click `View App`. Copy the URL and take note of it.
-
-### 🚩 Stage 3: Twilio
+### 🚩 Stage 2: Twilio
 
 This can get a bit complicated, we'll let the people over at Twilio explain with this [great guide](https://www.twilio.com/docs/notify/quickstart/sms). It will run you through the process of creating a Notify service in Twilio. You only need to follow the guide up to the **Gather account information** section.
 
@@ -98,7 +77,7 @@ Once you are done you should have the following information:
 | Service Instance SID | A  Notify Service instance where all the data for our application is stored and scoped. You created it in Twilio console in the above guide.|
 
 
-### 🚩 Stage 4: Hornbill
+### 🚩 Stage 3: Hornbill
 
 Now we want to deploy Hornbill, our admin tools system. This setup also uses Heroku and is similar to Eagle's.
 
@@ -128,7 +107,7 @@ Now we want to deploy Hornbill, our admin tools system. This setup also uses Her
 
 10. Once the app is deployed, click `View App`. Welcome to Hornbill, but what is my password?
 
-### 🚩 Stage 5: Parrot
+### 🚩 Stage 4: Parrot
 
 Parrot is a simple command line tool that allows you to add admin users so you can login to Hornbill.
 
@@ -150,7 +129,7 @@ python3 parrot.py new
 
 4. To update a user's password replace `new` with `update`. To delete a user replace `new` with `remove`.
 
-### 🚩 Stage 6: Flamingo
+### 🚩 Stage 5: Flamingo
 
 Next up we are deploying Flamingo, the tool everyday citizens use to check in and out of places. This setup also uses Heroku.
 
@@ -166,7 +145,7 @@ Next up we are deploying Flamingo, the tool everyday citizens use to check in an
 
 6. Once the app is deployed, click `View App`.
 
-### 🚩 Stage 7: Hummingbird
+### 🚩 Stage 6: Hummingbird
 
 TBA.
 
