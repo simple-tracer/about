@@ -28,7 +28,7 @@ Collectively, all of these can deployed with just a few clicks by following the 
     
     3. [Hornbill](#-stage-3-hornbill)
     
-    4. [Parrot](#-stage-4-parrot)
+    4. [Parrot](#-stage-4-parrot))
     
     5. [Flamingo](#-stage-5-flamingo)
     
@@ -148,6 +148,25 @@ Next up we are deploying Flamingo, the tool everyday citizens use to check in an
 ### 🚩 Stage 6: Hummingbird
 
 TBA.
+
+## Usage Instructions
+
+### Hornbill
+
+Coming soon.
+
+### Parrot
+
+View [above](#-stage-4-parrot)
+
+### Flamingo
+
+Coming soon.
+
+### Hummingbird
+
+Coming soon.
+
 
 **🎉 Amazing! We've succesfully set up Simple Tracer!**
 
