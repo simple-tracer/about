@@ -198,6 +198,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <table>
   <tr>
     <td align="center"><a href="http://sampoder.com"><img src="https://avatars3.githubusercontent.com/u/39828164?v=4" width="100px;" alt=""/><br /><sub><b>Sam Poder</b></sub></a><br /><a href="https://github.com/simple-tracer/about/commits?author=sampoder" title="Code">💻</a> <a href="https://github.com/simple-tracer/about/commits?author=sampoder" title="Documentation">📖</a> <a href="#tutorial-sampoder" title="Tutorials">✅</a> <a href="#tool-sampoder" title="Tools">🔧</a> <a href="https://github.com/simple-tracer/about/issues?q=author%3Asampoder" title="Bug reports">🐛</a></td>
+    <td align="center"><a href="https://github.com/darkthunder007"><img src="https://avatars3.githubusercontent.com/u/53977169?v=4" width="100px;" alt=""/><br /><sub><b>darkthunder007</b></sub></a><br /><a href="https://github.com/simple-tracer/about/commits?author=darkthunder007" title="Code">💻</a> <a href="#ideas-darkthunder007" title="Ideas, Planning, & Feedback">🤔</a></td>
   </tr>
 </table>
 
