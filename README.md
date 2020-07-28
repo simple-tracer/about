@@ -152,11 +152,23 @@ python3 parrot.py new
 
 ### 🚩 Stage 6: Flamingo
 
-TBC.
+Next up we are deploying Flamingo, the tool everyday citizens use to check in and out of places. This setup also uses Heroku.
+
+1. Click this [link](https://heroku.com/deploy?template=https://github.com/simple-tracer/flamingo/).
+
+2. Fill in your app name and a server location.
+
+3. For the `AIRTABLE_BASE` enviromental variable, enter your Airtable Base Key.
+
+4. For the `AIRTABLE_KEY` enviromental variable, enter your Airtable API Key.
+
+5. Click `Deploy App`.
+
+6. Once the app is deployed, click `View App`.
 
 ### 🚩 Stage 7: Hummingbird
 
-TBC.
+TBA.
 
 **🎉 Amazing! We've succesfully set up Simple Tracer!**
 
