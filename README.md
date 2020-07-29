@@ -28,7 +28,7 @@ Collectively, all of these can deployed with just a few clicks by following the 
     
     3. [Hornbill](#-stage-3-hornbill)
     
-    4. [Parrot](#-stage-4-parrot))
+    4. [Parrot](#-stage-4-parrot)
     
     5. [Flamingo](#-stage-5-flamingo)
     
