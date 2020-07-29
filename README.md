@@ -33,8 +33,20 @@ Collectively, all of these can deployed with just a few clicks by following the 
     5. [Flamingo](#-stage-5-flamingo)
     
     6. [Hummingbird](#-stage-6-hummingbird)
+
+2. [Usage Instructions](#usage-instructions)
     
-2. [FAQ](#faq)
+    1. [Hornbill](#hornbill)
+    
+    2. [Parrot](#parrot)
+    
+    3. [Flamingo](#flamingo)
+    
+    4. [Hummingbird](#hummingbird)
+
+3. [FAQ](#faq)
+
+4. [Contributors](#contributors)
 
 ## Deployment Instructions
 
