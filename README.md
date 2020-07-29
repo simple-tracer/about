@@ -149,11 +149,47 @@ Next up we are deploying Flamingo, the tool everyday citizens use to check in an
 
 TBA.
 
+**🎉 Amazing! We've succesfully set up Simple Tracer!**
+
 ## Usage Instructions
 
 ### Hornbill
 
-Coming soon.
+#### Login
+
+When first loading up the app, you will be asked to login.
+
+<img src="images/hornbill_login_required.png" alt="Login required" width="50%">
+
+Enter the details you generated with [Parrort](#-stage-4-parrot).
+
+<img src="images/hornbill_login_screen.png" alt="Login screen" width="50%">
+
+And you are in!
+
+#### Issuing Quarantine Orders
+
+Click this button to fetch contacts.
+
+<img src="images/hornbill_fetch_button.png" alt="Fetch button with arrow" width="50%">
+
+Enter the ID number, ensure this is the one used with Simple Tracer.
+
+<img src="images/hornbill_enter_id_number.png" alt="Form to enter ID Number" width="50%">
+
+And here are the contacts, click on the boxes to expand and see more details. When you are ready click "Issue Quarantine Orders"
+
+<img src="images/hornbill_contacts.png" alt="Contacts list" width="50%">
+
+Clicking "Issue Quarantine Orders" will send them a text saying:
+
+> You have been in contact with a recent COVID-19 case. Please do not leave your residence, you are now required to enter 14 days of self isolation. If you are outside, return home immediately. Thank you.
+
+And you've done it!
+
+#### See People serving Quarantine Orders
+
+You can see the people who are serving quarantine orders by clicking this button.
 
 ### Parrot
 
@@ -166,9 +202,6 @@ Coming soon.
 ### Hummingbird
 
 Coming soon.
-
-
-**🎉 Amazing! We've succesfully set up Simple Tracer!**
 
 ## FAQ
 
