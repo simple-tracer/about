@@ -22,19 +22,31 @@ Collectively, all of these can deployed with just a few clicks by following the 
 
 1. [Deployment Instructions](#deployment-instructions)
 
-   1. [Airtable](#-stage-1-airtable)
+    1. [Airtable](#-stage-1-airtable)
+    
+    2. [Twilio](#-stage-2-twilio)
+    
+    3. [Hornbill](#-stage-3-hornbill)
+    
+    4. [Parrot](#-stage-4-parrot)
+    
+    5. [Flamingo](#-stage-5-flamingo)
+    
+    6. [Hummingbird](#-stage-6-hummingbird)
 
-   2. [Twilio](#-stage-2-twilio)
+2. [Usage Instructions](#usage-instructions)
+    
+    1. [Hornbill](#hornbill)
+    
+    2. [Parrot](#parrot)
+    
+    3. [Flamingo](#flamingo)
+    
+    4. [Hummingbird](#hummingbird)
 
-   3. [Hornbill](#-stage-3-hornbill)
+3. [FAQ](#faq)
 
-   4. [Parrot](#-stage-4-parrot))
-
-   5. [Flamingo](#-stage-5-flamingo)
-
-   6. [Hummingbird](#-stage-6-hummingbird)
-
-2. [FAQ](#faq)
+4. [Contributors](#contributors)
 
 ## Deployment Instructions
 
@@ -236,6 +248,18 @@ Coming soon.
     <summary>I don't have the technical know how to set up the app, what can I do?</summary>
     <br>
     We offer free set up to all goverment agencies. Please email <a href="mailto:contact@simpletracer.tech">contact@simpletracer.tech</a>, with details and verifaction of your identity. 
+</details>
+
+<details>
+    <summary>Can I use a custom domain?</summary>
+    <br>
+    Yes! Check out: https://devcenter.heroku.com/articles/custom-domains 
+</details>
+
+<details>
+    <summary>Which services do I have to pay for?</summary>
+    <br>
+    If you plan to use this in a real world setting, you will need Airtable Enterprise, the Heroku Hobby plan and a load of Twilio Credit.
 </details>
 
 <details>
