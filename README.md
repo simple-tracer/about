@@ -220,6 +220,18 @@ Coming soon.
 </details>
 
 <details>
+    <summary>Can I use a custom domain?</summary>
+    <br>
+    Yes! Check out: https://devcenter.heroku.com/articles/custom-domains 
+</details>
+
+<details>
+    <summary>Which services do I have to pay for?</summary>
+    <br>
+    If you plan to use this in a real world setting, you will need Airtable Enterprise, the Heroku Hobby plan and a load of Twilio Credit.
+</details>
+
+<details>
     <summary>I'd like to contribute, how can I?</summary>
     <br>    
     First off, thank you. All our code is open source and each Github repository has instructions for contributing. For this repo, it's best to run through the guide and then add additional details you feel are missing. Once you've contributed add yourself to the contributors list below, here's<a href ="https://github.com/simple-tracer/about/issues"> how</a>.
