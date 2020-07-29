@@ -191,6 +191,8 @@ And you've done it!
 
 You can see the people who are serving quarantine orders by clicking this button.
 
+<img src="images/hornbill_view_button.png" alt="View button with arrow" width="50%">
+
 ### Parrot
 
 View [above](#-stage-4-parrot)
