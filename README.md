@@ -214,15 +214,15 @@ To install Flamingo, users should go to your link and they will receive a prompt
 
 The first screen is this, it is a camera window which can be used to position the camera to see a QR code.
 
-<img src="images/flamingo_qr_scan.png" alt="QR Scanning Page" width="50%">
+<img src="images/flamingo_qr_scan.jpg" alt="QR Scanning Page" width="50%">
 
 The user will then be asked for more details
 
-<img src="images/flamingo_first_page.png" alt="Page asking for ID Number" width="50%">
+<img src="images/flamingo_first_page.jpg" alt="Page asking for ID Number" width="50%">
 
 The system will check if it has details for that account, if it doesn't it will ask for more. Otherwise this page will be skipped.
 
-<img src="images/flamingo_second_page.png" alt="Page asking for more details" width="50%">
+<img src="images/flamingo_second_page.jpg" alt="Page asking for more details" width="50%">
 
 And success!! The person has been checked in.
 
