@@ -1,8 +1,8 @@
 # About Simple Tracer
 
-On the 31st of December 2019, the world as we knew it began to crumble. As we celebrated the beginning of a new decade, a deadly new virus was spreading in Wuhan, China. And it spread fast, one infected person could spread COVID-19 to thousands of people. As we built this project, we were still fighting the pandemic and the battle is very far from over. We've seen first hand, the effect a pandemic can leave. 
+On the 31st of December 2019, the world as we knew it began to crumble. As we celebrated the beginning of a new decade, a deadly new virus was spreading in Wuhan, China. And it spread fast, one infected person could spread COVID-19 to thousands of people. As we built this project, we were still fighting the pandemic and the battle is very far from over. We've seen first hand, the effect a pandemic can leave.
 
-One thing we've observed is the effectiveness of contact tracing as a utility to fight the pandemic. So we built a tool that allows for contact tracers to identify people who enter the same building. The idea behind it is that any administration could deploy it in under an hour. This means that if one person who entered a shop gets infected, the people who were at the shop get a message that serves a quarantine order and it is logged that they have entered quarantine. 
+One thing we've observed is the effectiveness of contact tracing as a utility to fight the pandemic. So we built a tool that allows for contact tracers to identify people who enter the same building. The idea behind it is that any administration could deploy it in under an hour. This means that if one person who entered a shop gets infected, the people who were at the shop get a message that serves a quarantine order and it is logged that they have entered quarantine.
 
 Simple Tracer consists of five key components:
 
@@ -22,18 +22,18 @@ Collectively, all of these can deployed with just a few clicks by following the 
 
 1. [Deployment Instructions](#deployment-instructions)
 
-    1. [Airtable](#-stage-1-airtable)
-    
-    2. [Twilio](#-stage-2-twilio)
-    
-    3. [Hornbill](#-stage-3-hornbill)
-    
-    4. [Parrot](#-stage-4-parrot))
-    
-    5. [Flamingo](#-stage-5-flamingo)
-    
-    6. [Hummingbird](#-stage-6-hummingbird)
-    
+   1. [Airtable](#-stage-1-airtable)
+
+   2. [Twilio](#-stage-2-twilio)
+
+   3. [Hornbill](#-stage-3-hornbill)
+
+   4. [Parrot](#-stage-4-parrot))
+
+   5. [Flamingo](#-stage-5-flamingo)
+
+   6. [Hummingbird](#-stage-6-hummingbird)
+
 2. [FAQ](#faq)
 
 ## Deployment Instructions
@@ -50,19 +50,19 @@ The reason for using Airtable is that it can be built on top of extremely quickl
 
 3. So that your deployments will be able to interact with your Airtable base we will need to get an API key and the Base key. To do this you must:
 
-    1. Go to [this page](https://airtable.com/account). 
-    
-    2. Find the API section and click generate
-    
-    3. Copy the provided key this is your API key.
-    
-    4. To get the Base key go to [this page](https://airtable.com/api) and click the base we created earlier.
-    
-    5. Use control f or command f to find 'The ID of this base is' on the page.
-    
-    6. The ID following that will be your Base Key
-    
-    7. Make sure to note down both keys.
+   1. Go to [this page](https://airtable.com/account).
+
+   2. Find the API section and click generate
+
+   3. Copy the provided key this is your API key.
+
+   4. To get the Base key go to [this page](https://airtable.com/api) and click the base we created earlier.
+
+   5. Use control f or command f to find 'The ID of this base is' on the page.
+
+   6. The ID following that will be your Base Key
+
+   7. Make sure to note down both keys.
 
 ### 🚩 Stage 2: Twilio
 
@@ -70,12 +70,11 @@ This can get a bit complicated, we'll let the people over at Twilio explain with
 
 Once you are done you should have the following information:
 
-| Config Value         | Description                                                                                                                                    
-|-|-|
-| Account SID          | Used to authenticate REST API requests - [find it in the Twilio console here](https://www.twilio.com/user/account/settings).|
-| Auth Token           | Used to authenticate REST API requests - [like the Account SID, find it in the console here](https://www.twilio.com/user/account/settings)|
-| Service Instance SID | A  Notify Service instance where all the data for our application is stored and scoped. You created it in Twilio console in the above guide.|
-
+| Config Value         | Description                                                                                                                                 |
+| -------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- |
+| Account SID          | Used to authenticate REST API requests - [find it in the Twilio console here](https://www.twilio.com/user/account/settings).                |
+| Auth Token           | Used to authenticate REST API requests - [like the Account SID, find it in the console here](https://www.twilio.com/user/account/settings)  |
+| Service Instance SID | A Notify Service instance where all the data for our application is stored and scoped. You created it in Twilio console in the above guide. |
 
 ### 🚩 Stage 3: Hornbill
 
@@ -91,11 +90,11 @@ Now we want to deploy Hornbill, our admin tools system. This setup also uses Her
 
 5. For the `KEY` enviromental variable, we need to generate a key (unlike before we can't just use a random string of letters).
 
-    1. To do this we will use Python, open your terminal and type python. Or use this [site](https://www.python.org/shell/) if you don't have Python installed.
-    2. Next, type `import os` and click enter.
-    3. Now, type `import base64` and click enter.
-    4. To end, type `print(base64.urlsafe_b64encode(os.urandom(32)))`
-    5. Copy the result, if your result has `b'` at the start delete that as well as the `'` at the end.
+   1. To do this we will use Python, open your terminal and type python. Or use this [site](https://www.python.org/shell/) if you don't have Python installed.
+   2. Next, type `import os` and click enter.
+   3. Now, type `import base64` and click enter.
+   4. To end, type `print(base64.urlsafe_b64encode(os.urandom(32)))`
+   5. Copy the result, if your result has `b'` at the start delete that as well as the `'` at the end.
 
 6. For the `TWILIO_ACCOUNT_SID` enviromental variable, enter your Twilio Account SID you made earlier.
 
@@ -199,7 +198,27 @@ View [above](#-stage-4-parrot)
 
 ### Flamingo
 
-Coming soon.
+To install Flamingo, users should go to your link and they will receive a prompt to install it as a PWA.
+
+The first screen is this, it is a camera window which can be used to position the camera to see a QR code.
+
+<img src="images/flamingo_qr_scan.png" alt="QR Scanning Page" width="50%">
+
+The user will then be asked for more details
+
+<img src="images/flamingo_first_page.png" alt="Page asking for ID Number" width="50%">
+
+The system will check if it has details for that account, if it doesn't it will ask for more. Otherwise this page will be skipped.
+
+<img src="images/flamingo_second_page.png" alt="Page asking for more details" width="50%">
+
+And success!! The person has been checked in.
+
+<img src="images/flamingo_success_page.jpg" alt="Check in success page" width="50%">
+
+To checkout, they just need to scan the QR code and enter their ID again.
+
+<img src="images/flamingo_success2_page.jpg" alt="Check out success page" width="50%">
 
 ### Hummingbird
 
@@ -231,9 +250,7 @@ Coming soon.
     Please view this document.
 </details>
 
-
-
-## Contributors 
+## Contributors
 
 Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
 
@@ -249,6 +266,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 
 <!-- markdownlint-enable -->
 <!-- prettier-ignore-end -->
+
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
 This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
