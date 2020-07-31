@@ -6,15 +6,13 @@ One thing we've observed is the effectiveness of contact tracing as a utility to
 
 Simple Tracer consists of five key components:
 
-1. **Flamingo**, the app for residents to check in to buildings. Built with Ionic.
+1. **Flamingo**, the app for residents to check in to buildings. Built with Flask as a PWA.
 
-2. **Eagle**, an API that manages checking in and out to allow for new solutions to be built. Built with Express and Node.js.
+2. **Hummingbird**, a website that powers building registration and QR code generation. Built with Flask
 
-3. **Hummingbird**, a website that powers building registration and QR code generation. Built with HTML, CSS & JS.
+3. **Hornbill**, a web app for contact tracers to identify contacts and issue quarantine orders. Built with Flask
 
-4. **Hornbill**, a web app for contact tracers to identify contacts and issue quarantine orders.
-
-5. **Parrot**, a python script for creating admin users for Hornbill.
+4. **Parrot**, a python script for creating admin users for Hornbill.
 
 Collectively, all of these can deployed with just a few clicks by following the guide below.
 
